@@ -27,11 +27,11 @@ function Nav () {
     icon: <StarIcon className='w-6 h-6' />
   }]
   return (
-    <nav className='fixed shadow-md z-50 w-full bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-primary'>
+    <nav className='fixed shadow-md z-50 w-full bg-primary border-gray-200 px-2 sm:px-4 py-2.5'>
       <div className='container flex flex-wrap items-center justify-between mx-auto'>
         <Link href='/' className='flex items-center'>
           <GlobeAsiaAustraliaIcon className='w-10 h-10 text-white' />
-          <span className='self-center text-xl font-semibold whitespace-nowrap dark:text-white'>Turist Guide</span>
+          <span className='self-center text-xl font-semibold whitespace-nowrap text-white'>Turist Guide</span>
         </Link>
         <button onClick={() => setToggle(!toggle)} data-collapse-toggle='navbar-default' type='button' className='inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg md:hidden hover:bg-neutral focus:outline-none focus:ring-2 focus:ring-white' aria-controls='navbar-default' aria-expanded='false'>
           <span className='sr-only'>Open main menu</span>
